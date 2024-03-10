@@ -3,8 +3,6 @@ void check();
 void main()
 {
 	check();
-	int sum( int x, int y);
-//	printf("sum = %d",sum(20,20));
 }
 void check()
 {
@@ -13,11 +11,8 @@ void check()
 	scanf("%d%d",&x,&y);
 	if(x>y)
 	printf(" X is greater\n");
-	else
+	else if(x<y)
 	printf("Y is greater\n");
+	else
+	printf("both are equal\n");
 }
-
-/*int sum(int x,int y)
-{
-	return x+y;
-}*/
